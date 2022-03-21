@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.canvas{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fcf1f1;
+    width: 100%;
+    height: 100vh;
+}
+
+.circle{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vmin;
+    height: 80vmin;
+    border-radius: 50%;
+    background: #f9e0ac;
+}
+
+.pot{
+    position: absolute;
+    border-bottom: 25vmin solid #835050;
+    border-left: 7vmin solid transparent;
+    border-right: 7vmin solid transparent;
+    height: 0;
+    width: 40vmin;
+    bottom: 15vmin;
+    transform: rotate(180deg);
+    border-radius: 3vmin;
+}
+
+.pot::after{
+    content: "";
+    position: absolute;
+    width: 26vmin;
+    height: 1vmin;
+    background:#000;
+
+}
+
+.eyes{
+    position:absolute;
+    width: 4vmin;
+    height: 4vmin;
+    background: #000;
+    border-radius: 50%;
+    bottom: -15vmin;
+    right: 18vmin;
+    box-shadow: 13vmin 0 #000;
+
+}
+
+.cheeks{
+    position: absolute;
+    width: 5vmin;
+    height: 2vmin;
+    top: 9vmin;
+    left: 2vmin;
+    background: red;
+    border-radius: 50%;
+    opacity: 30%;
+    box-shadow: 16vmin 0 red;
+}
+
+.mouth{
+    position: absolute;
+    width: 4vmin;
+    height: 4vmin;
+    top: 8vmin;
+    left: 10vmin;
+    background: transparent;
+    border-top: 5px solid #000;
+    border-radius: 50%;
+}
+
+.cactus{
+    position: absolute;
+    width: 17vmin;
+    height: 30vmin;
+    top: 15vmin;
+    left: 25vmin;
+    background: #799351;
+    border-radius: 45%;
+    border:1vmin solid #000 ;
+}
+
+.cactus::before{
+    content: "";
+    position: absolute;
+    width: 5vmin;
+    height: 30vmin;
+    left: 6vmin;
+    background: transparent;
+    border-radius: 50%;
+    border-right: 1vmin solid #335d2d;
+}
+
+.cactus::after{
+    content: "";
+    position: absolute;
+    width: 5vmin;
+    height: 30vmin;
+    right: 6vmin;
+    background: transparent;
+    border-radius: 50%;
+    border-left: 1vmin solid #335d2d;
+}
+
+.cactusRight{
+    position: absolute;
+    width: 17vmin;
+    height: 20vmin;
+    top: 26vmin;
+    background: #799351;
+    right: 25vmin;
+    border-radius: 50%;
+    border:1vmin solid black;
+}
+
+.cactusRight::before{
+    content: "";
+    position: absolute;
+    width: 5vmin;
+    height:20vmin;
+    left: 6vmin;
+    background: transparent;
+    border-radius: 50%;
+    border-right: 1vmin solid #335d2d;
+}
+
+.cactusRight::after{
+    content: "";
+    position: absolute;
+    width: 5vmin;
+    height: 17vmin;
+    right: 6vmin;
+    background: transparent;
+    border-radius: 50%;
+    border-left: 1vmin solid #335d2d;
+}
+
+.pricks{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 1vmin solid transparent;
+    border-right: 1vmin solid transparent;
+    border-bottom: 5vmin solid #335d2d;
+    transform: rotate(-45deg);
+}
+
+.pricks::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 10vmin;
+    left: 5vmin;
+    border-left: 1vmin solid transparent;
+    border-right: 1vmin solid transparent;
+    border-bottom: 5vmin solid #335d2d;
+    transform: rotate(90deg);
+
+}
+
+.pricks::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 7vmin;
+    left: -10vmin;
+    border-left: 1vmin solid transparent;
+    border-right: 1vmin solid transparent;
+    border-bottom: 5vmin solid #335d2d;
+}
+
+.pricksRight{
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: -2vmin;
+    left: 1vmin;
+    border-left: 1vmin solid transparent;
+    border-right: 1vmin solid transparent;
+    border-bottom: 5vmin solid #335d2d;
+    transform: rotate(-45deg);
+}
+
+.pricksRight::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 10vmin;
+    left: 6vmin;
+    border-left: 1vmin solid transparent;
+    border-right: 1vmin solid transparent;
+    border-bottom: 5vmin solid #335d2d;
+    transform: rotate(90deg);
+}
+
+.pricksRight::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 6vmin;
+    left: -7vmin;
+    border-left: 1vmin solid transparent;
+    border-right: 1vmin solid transparent;
+    border-bottom: 5vmin solid #335d2d;
+    transform: rotate(-45deg);
+}

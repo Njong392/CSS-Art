@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.canvas{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+background: linear-gradient(0deg, rgba(253,187,45,1) 0%,rgba(25,209,208,1), rgba(2,0,36,1) 100%);
+}
+
+.building{
+    position: absolute;
+    width: 18vmin;
+    height: 9vmin;
+    left: 84vmin;
+    background: #fff;
+    bottom: 0vmin;
+}
+
+.door{
+    position:absolute;
+    width: 3vmin;
+  height: 3vmin;
+  background: #000;
+  bottom:0;
+  left:2vmin;
+}
+
+.shape7{
+    position: absolute;
+    bottom: 0;
+    border-bottom: 10vmin solid #D32626;
+    border-left:2vmin solid transparent;
+    border-right: 2vmin solid transparent;
+    height: 0;
+    width: 40vmin;
+
+}
+
+.window4{
+    position: absolute;
+    width: 3vmin;
+    height: 3vmin;
+    background: #000;
+    right: 7vmin;
+    top: 1vmin;
+
+}
+
+
+.shape6{
+    position: absolute;
+    bottom: 9vmin;
+    border-bottom: 10vmin solid #fff;
+    border-left:2vmin solid transparent;
+    border-right: 2vmin solid transparent;
+    height: 0;
+    width: 36vmin;
+}
+
+.shape5{
+    position: absolute;
+    bottom: 18vmin;
+    border-bottom: 10vmin solid #D32626;
+    border-left:2vmin solid transparent;
+    border-right: 2vmin solid transparent;
+    height: 0;
+    width: 32vmin;
+}
+
+.window3{
+    position: absolute;
+    width: 3vmin;
+    height: 3vmin;
+    background: #000;
+    left: 2vmin;
+    top: 1vmin;
+
+}
+
+.shape4{
+    position: absolute;
+    bottom: 27vmin;
+    border-bottom: 10vmin solid #fff;
+    border-left:2vmin solid transparent;
+    border-right: 2vmin solid transparent;
+    height: 0;
+    width: 28vmin;
+}
+
+.shape3{
+    position: absolute;
+    bottom: 36vmin;
+    border-bottom: 10vmin solid #D32626;
+    border-left:2vmin solid transparent;
+    border-right: 2vmin solid transparent;
+    height: 0;
+    width: 24vmin;
+}
+
+.window2{
+    position: absolute;
+    width: 3vmin;
+    height: 3vmin;
+    background: #000;
+    right: 2vmin;
+    top: 1vmin;
+
+}
+
+
+
+.shape2{
+    position: absolute;
+    bottom: 45vmin;
+    border-bottom: 10vmin solid white;
+    border-left:2vmin solid transparent;
+    border-right: 2vmin solid transparent;
+    height: 0;
+    width: 20vmin;
+}
+
+.shape1{
+    position: absolute;
+    bottom: 54vmin;
+    border-bottom: 10vmin solid #D32626;
+    border-left:2vmin solid transparent;
+    border-right: 2vmin solid transparent;
+    height: 0;
+    width: 16vmin;
+}
+
+.window1{
+    position: absolute;
+    width: 3vmin;
+    height: 3vmin;
+    background: #000;
+    left: 2vmin;
+    top: 1vmin;
+
+}
+
+.balcony{
+    position: absolute;
+    width: 12vmin;
+    height: 5vmin;
+    background: brown;
+    bottom: 63vmin;
+}
+
+.source{
+    position: absolute;
+    width: 12vmin;
+    height: 7vmin;
+    background: rgba(253,187,45,1);
+    bottom: 68vmin;
+    
+}
+
+.source::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom:-17vmin;
+    left: 7vmin;
+    border-top: 20vmin solid transparent;
+    border-right: 70vmin solid yellow;
+    opacity:10%;
+    border-bottom: 20vmin solid transparent;
+}
+
+.pillar1{
+    position: absolute;
+    width: 3vmin;
+    height: 8vmin;
+    background: brown;
+}
+
+.pillar2{
+    position: absolute;
+    width: 3vmin;
+    height: 8vmin;
+    background: brown;
+    right: 0vmin;
+}
+
+.roofRight{
+    position: absolute;
+    width:0;
+    height: 0;
+    bottom:75vmin;
+    border-left: 6vmin solid transparent;
+    border-right: 6vmin solid transparent;
+    border-bottom: 10vmin solid #630606;
+}
